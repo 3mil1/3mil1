@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html {
+    font-family: 'Cormorant Garamond';
+
+}
+/* navbar */
+
+  /* Header */
+
+.header {
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+.header h2 {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.nav{
+   float: right;
+   margin: auto 0;
+   margin-right: 2em;
+
+ 
+}
+.navbar {
+    display: block;
+    justify-content: end;
+    background:#F4EBE4;
+    width: 20em;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgba(51,51,51,1);
+
+}
+footer {
+    width: 100%;
+    height: 12em;
+    background: #F4EBE4;
+    display: flex;
+}
+footer h1 {
+    text-align: center;
+    width: 100%;
+}
+.section1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.section1 img {
+width: 150px;
+height: 150px;
+}
+.section2 {
+    width: 40%;
+    display: block;
+}
+.section2 h1 {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+.section2 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1em;
+}
+.section2 a  {
+    justify-content: center;
+    display: flex;
+    color: black;
+
+   
+}
+.section3 {
+    width: 30%; 
+}
+.medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.medias a {
+    margin: 2px;
+}
+.show {
+    display: flex;
+    justify-content: center;
+
+}
+.head {
+    text-align: center;
+    width: 100%;
+    background: #F4EBE4;
+}
+.head h1 {
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+.head hr {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    height: 10em;
+    background: #F4EBE4;
+    margin-top: 2em;
+    overflow: hidden;
+}
+.about h3 {
+    text-align: center;
+    font-size:25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+}
+.about p {
+    margin: 20px 30px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+
+}
+.about p a{
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.feedback {
+    height: 5%;
+    background: #F4EBE4;
+    margin-top: 2em; 
+    height: 8em;
+}
+.contact {
+    height: 5%;
+    opacity: 1;
+    justify-content: center;
+    display: flex;
+    background: url("back.jpeg");
+    background-size: cover ;
+    opacity: 0.6;
+    height: 10em;
+
+}
+.btn{
+ height: 70px;
+ margin: auto 0;
+ width: 25%;
+ background: #F4EBE4;
+ border: none;
+
+}
+.btn a {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-style: italic; 
+    color: rgba(136,136,136,1);
+    font-family: 'Cormorant Garamond';
+}
+
+.minust_container {
+ display: flex; 
+ justify-content: center;
+ 
+ 
+}
+
+.minust_container_img{
+    width: 20em;
+    height: 30em;
+    margin: 10px;
+    position: relative;
+}
+
+.minust__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.minust2 {
+    width: 20em;
+    height: 30em;
+    margin-top: 3em;
+    margin-left: 1em;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.minust2 a {
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    text-align: justify;
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-style: normal;  
+}
+.minust2 h2 {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+
+}
+.minust2 h4 {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.minust2 h5 {
+    text-align: center;
+    font-weight: 100;
+    opacity: 0.6;
+}
+.minust2 p {
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    text-align: justify;
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-style: normal;
+}
+.donejobs {
+    display: flex;
+    justify-content: space-around;
+    /*lisasin*/
+    width: 70%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+.cards{
+    width: 14em;
+    height: 18em;
+    padding: 10px;
+    border-color: rgba(51,51,51,0.25);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: inherit;
+    transition: all .2s ease-in-out;
+}
+.cards:hover{
+    background-color:rgba(244, 235, 228, 0.562);
+    transform: scale(1.1);
+}
+.cards__image{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 100% 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.cards__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cards__descr {
+    text-align: center;
+}
+.container1 {
+    margin-top: 50px;
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+    margin-right: 1em;
+}
+.container2 {
+    margin-top: 50px;
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+}
+.container-1 {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 100% 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0; 
+    height: 40em;
+}
+.container-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container-2 {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 100% 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0; 
+    height: 40em;
+}
+.container-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+#fb {
+    color: #3b5998;
+    font-size: 2em;
+}
+.contact-info {
+    text-align: center;
+    background: #F4EBE4;
+    display: block;
+}
+
+/* MTÜ PAGE*/
+/* padding Top 20*/
+.padT20{
+    padding-top: 20px;
+}
+/* padding Bottom 20*/
+.padB20{
+    padding-bottom: 20px;
+}
+.download{
+    cursor: pointer;
+    color: rgba(51,51,51,1);
+    background-color: #F4EBE4;
+    border: 1px solid rgba(51, 51, 51, 0.082);
+    padding: 10px 30px;
+    width: 90%;
+    margin: 10px;
+    font-family: 'Cormorant Garamond';
+    font-size: 15px;
+    font-weight: 100;
+}
+.download i{
+    color: rgba(51, 51, 51, 0.384);
+    float: left;
+} 
+.mtuInfo {
+    width: 100%;
+    
+    overflow: hidden;
+    display: block;
+}
+.mtuInfo h3 {
+    text-align: center;
+    font-size:25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+}
+.mtuInfo p {
+    margin: 20px auto;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: left;
+    width: 40%;
+
+} 
+/* CONTACT  PAGE */
+#phone {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+.sendMail {
+    text-align: center;
+    width:70%;
+    margin: auto;
+}
+
+.sendMail h3 {
+    text-align: center;
+    font-size:25px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(51,51,51,1);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.input-field input, #text::placeholder, #text {
+    width: 60%;
+    font-family: 'Cormorant Garamond';
+    border-style: none;
+    border-left: oldlace 1px solid;
+    border-bottom: oldlace 1px solid;
+    letter-spacing: 0.1em;
+    margin: 20px 0;
+    text-align: center;
+    color: rgba(51,51,51,1);
+    font-size:20px;
+}
+.input-field input::placeholder{
+    text-transform: uppercase;
+    font-size:16px;
+}
+#text {
+    height: 200px;
+    border: none;
+    width: 60%;
+    border-left: oldlace 1px solid;
+    border-bottom: oldlace 1px solid;
+    text-align: left;
+}
+#text::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:16px;
+}
+.submit{
+    width: 50%;
+    font-family: 'Cormorant Garamond';
+    color: rgba(51,51,51,1);
+    border:none;
+    background-color: white;
+    padding: 8px 0;
+    margin: 20px 0 100px 0px;
+    height: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: right;
+    font-size:20px;
+}
+
+/* CONTACT  PAGE END*/
+
+/*MEDIA 800*/
+@media screen and (max-width: 800px) {
+    .header h2 {
+        font-size: 20px;
+    }
+    footer {
+        display: block; 
+    }
+    .section1 {
+        width: 100%;
+        background: #F4EBE4;
+        
+    }
+    .section2 {
+        width: 100%;
+        background: #F4EBE4;
+    }
+    .section3 {
+        background: #F4EBE4;
+        width: 100%;
+    }
+    .show {
+        display: block;
+    }
+    .container1 {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom:2em; 
+    }
+    .container2{
+        
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about {
+        height: 10em;
+    }
+    .feedback {
+        height: 10em;;
+    }
+    .contact {
+        height: 10em;
+    }
+   
+    .contact button h5 {
+        font-size: 10px;
+    }
+   
+
+    .donejobs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cards{
+        margin: auto auto 15px auto;
+        width: 80%;
+        height: 80%;
+    }
+    .minust_container {
+        display: block;
+    }
+    .minust_container_img {
+        margin: 0 auto;
+    
+    }
+    .minust2 {
+        margin: 0 auto;
+    }
+    .btn{
+        width: 10em;
+    }
+    .btn a {
+        font-size: small;
+
+    }
+    .about {
+        height: 20em;
+    }
+    .contact-info {
+        text-align: center;
+        background: #F4EBE4;
+        margin-top: 12.5em;
+    }
+    /* MTÜ PAGE */
+    .mtuInfo p {
+        width: 80%;
+    
+    }
+    /*CONTACT PAGE*/
+    .input-field input, #text::placeholder, #text{
+        width: 100%;
+    }
+}

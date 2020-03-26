@@ -1,0 +1,151 @@
+.button_container {
+  position: fixed;
+  top: 5%;
+  right: 1%;
+  cursor: pointer;
+  z-index: 101;
+  transition: opacity .25s ease;
+}
+.button_container:hover {
+  opacity: .7;
+}
+
+.overlay {
+  position: fixed;
+  background: rgb(255, 234, 218);
+  top: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+.overlay.open {
+  padding: 0 6px 0 6px;
+  opacity: 0.9;
+  visibility: visible;
+  height: 100vh;
+  overflow: auto;
+  z-index: 100;
+}
+.overlay.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay nav {
+  position: relative;
+  height: 70%;
+  top: 56%;
+  transform: translateY(-50%);
+  text-align: center;
+
+  color: rgba(136,136,136,1);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 38px;
+  font-family: 'Cormorant Garamond';
+  font-weight: 300;
+  font-style: italic;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  /* height: 25%; */
+  /* height: calc(100% / 7); */
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+  margin-bottom: 1em;
+
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #a1a1a1;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.overlay ul li a:hover{
+  color: rgb(251, 193, 121);
+}
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: rgba(70, 69, 69, 0.5);
+  transition: .35s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 768) 
+{
+.overlay nav {
+  font-size: 100px;
+}
+}
+
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width : 1240px)
+{
+.overlay {
+  width: 100% !important;
+}
+
+/* .overlay nav {
+  font-size: 6rem;
+} */
+
+svg {
+  /* height: 10rem; */
+  position: absolute;
+  /* width: 10rem; */
+}
+
+.button_container{
+  right: 1%;
+  top: 1%;
+}
+
+.overlay.open {
+  height: 85vh;
+}
+
+}
